@@ -1,7 +1,7 @@
 package dev.hyperlisk.enchanttweaks;
 
 import dev.hyperlisk.enchanttweaks.blocks.ModBlocks;
-import dev.hyperlisk.enchanttweaks.blocks.XperiumBlock;
+import dev.hyperlisk.enchanttweaks.blocks.XperiumOreBlock;
 import dev.hyperlisk.enchanttweaks.setup.ClientProxy;
 import dev.hyperlisk.enchanttweaks.setup.IProxy;
 import dev.hyperlisk.enchanttweaks.setup.ServerProxy;
@@ -48,13 +48,13 @@ public class EnchantTweaks
         @SubscribeEvent
         public static void onBlockRegistry(final RegistryEvent.Register<Block> event) {
 
-            event.getRegistry().register(new XperiumBlock());
+            event.getRegistry().register(new XperiumOreBlock());
         }
 
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
 
-            event.getRegistry().register(new BlockItem(ModBlocks.XPERIUMBLOCK, new Item.Properties()).setRegistryName("xperiumblock"));
+            event.getRegistry().register(new BlockItem(ModBlocks.XPERIUMOREBLOCK, new Item.Properties()).setRegistryName("XPERIUMORE"));
         }
     }
 

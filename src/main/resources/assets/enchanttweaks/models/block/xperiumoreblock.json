@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "enchanttweaks:block/xperiumoreblock",
+    "all": "enchanttweaks:block/xperiumoreblock"
+  }
+}
+

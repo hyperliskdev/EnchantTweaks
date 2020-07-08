@@ -4,7 +4,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
 
-    @ObjectHolder("enchanttweaks:xperiumblock")
-    public static XperiumBlock XPERIUMBLOCK;
+    @ObjectHolder("enchanttweaks:xperiumoreblock")
+    public static XperiumOreBlock XPERIUMOREBLOCK;
 
 }
